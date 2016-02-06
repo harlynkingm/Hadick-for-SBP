@@ -25,15 +25,7 @@ jQuery(document).ready(function($) {
         pagination: false,
         singleItem: true
     });
-//    
-//    $(".overlay").click(function(){
-//        $(".overlay").fadeOut(200);
-//    });
-//    
-//    $(".content-block").click(function(){
-//        $(".overlay").fadeIn(200);
-//    });
-//    
+    
     $(".candidate-header").click(function(){
         $(this).next().slideToggle();
     });
@@ -71,6 +63,12 @@ jQuery(document).ready(function($) {
     });
     $("#scroll-team").click(function(){
         $('body').scrollTo('#our-team');
+    });
+    $("#scroll-timeline").click(function(){
+        $('body').scrollTo('#timeline');
+    });
+    $("#scroll-contact").click(function(){
+        $('body').scrollTo('#contact');
     });
     
 });

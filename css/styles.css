@@ -68,6 +68,34 @@
     display: none;
 }
 
+.issue-image{
+    border: 1px solid #0d144a;
+    border-radius:15px;
+    height:200px;
+    margin:auto;
+    margin-bottom: 15px;
+}
+
+.student-image{
+    height: 220px;
+    overflow: hidden;
+}
+
+.student-text{
+    margin-top:-20px;
+    z-index:100;
+    padding:5px;
+    color: #fff;
+    background-color: #0d144a;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.timeline-text{
+    font-size: 25px;
+    line-height: 35px;
+}
+
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none;   /* Chrome/Safari/Opera */

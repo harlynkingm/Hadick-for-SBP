@@ -1,0 +1,79 @@
+::selection {
+  background: #0d144a;
+  color: #fff;
+}
+::-moz-selection {
+  background: #0d144a;
+  color: #fff;
+}
+
+.candidate-names{
+    font-size:28px;
+    color:#e32f33;
+    margin-top: 15px;
+}
+
+.candidate-title{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.candidate-header{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-right: 5%;
+    padding: 5px;
+    padding-top: 7px;
+    background-color: #0d144a;
+    color: #fff;
+    border-radius: 2px;
+    border: 2px solid #0d144a;
+}
+
+.candidate-header:hover{
+    border: 2px solid #0d144a;
+    background-color: #fff;
+    color: #0d144a;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.info-bullets{
+    font-size: 16px;
+    margin-top: 7px;
+    margin-right: 5%;
+    text-align: left;
+    margin-left: 15px;
+    line-height: 22px;
+    display: none;
+}
+
+.issue-header{
+    font-size: 32px;
+    padding: 15px;
+    color: #fff;
+    background-color: #0d144a;
+    margin-right: -100px;
+}
+
+.issue-text{
+    font-size: 22px;
+    margin-top: 12px;
+    line-height: 32px;
+}
+
+.platform-desc{
+    color: #fff;
+    display: none;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+}

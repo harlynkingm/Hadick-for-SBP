@@ -78,7 +78,7 @@ body{
 }
 
 .issue-text{
-    font-size: 20px;
+    font-size: 22px;
     margin-top: 12px;
     line-height: 32px;
     margin-left: 15px;
@@ -126,6 +126,11 @@ body{
     width:300px;
 }
 
+.candidate-top-box{
+    font-weight:100;
+    cursor:default;
+}
+
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none;   /* Chrome/Safari/Opera */
@@ -151,6 +156,18 @@ body{
     
     .candidate-title{
         font-size: 17px
+    }
+    
+    .candidate-top-box{
+        font-size:19px !important;
+    }
+    
+    .issue-text{
+        font-size: 20px;
+    }
+    
+    .platform-desc{
+        font-size: 12px;
     }
 }
 
@@ -195,5 +212,9 @@ body{
     
     .snap-pic{
         width: 200px;
+    }
+    
+    .platform-desc{
+        font-size: 14px;
     }
 }

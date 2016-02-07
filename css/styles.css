@@ -73,7 +73,7 @@ body{
     padding: 15px;
     color: #fff;
     background-color: #0d144a;
-    margin-right: -1000px;
+    margin-right: -100%;
     margin-left: 15px;
 }
 
@@ -188,6 +188,10 @@ body{
     .issue-text{
         font-size: 14px;
         line-height: 20px;
+    }
+    
+    .issue-header{
+        margin-right: -10px;
     }
     
     .candidate-header{

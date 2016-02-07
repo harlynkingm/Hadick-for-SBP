@@ -19,7 +19,7 @@ jQuery(document).ready(function($) {
     }
     
     $("#owl").owlCarousel({
-        slideSpeed: 400,
+        slideSpeed: 1000,
         autoPlay: true,
         navigation: false,
         pagination: false,
@@ -69,6 +69,9 @@ jQuery(document).ready(function($) {
     });
     $("#scroll-contact").click(function(){
         $('body').scrollTo('#contact');
+    });
+    $("#scroll-top").click(function(){
+        window.scrollTo(0, 0);
     });
     
 });

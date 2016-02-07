@@ -96,6 +96,10 @@
     line-height: 35px;
 }
 
+.contact-text{
+    font-size:24px;
+}
+
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none;   /* Chrome/Safari/Opera */
@@ -104,4 +108,32 @@
   -ms-user-select: none;       /* IE/Edge */
   user-select: none;           /* non-prefixed version, currently
                                   not supported by any browser */
+}
+
+@media screen and (max-width:480px) {
+    .timeline-text{
+        font-size: 12px;
+        line-height: 19px;
+    }
+    
+    .contact-text{
+        font-size: 18px;
+    }
+    
+    .issue-header{
+        font-size: 20px;
+    }
+    
+    .issue-text{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .candidate-header{
+        font-size: 25px;
+    }
+    
+    .info-bullets{
+        font-size: 14px;
+    }
 }

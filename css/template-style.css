@@ -43,7 +43,7 @@ nav {
     border-bottom: .5px solid #0d144a;
 }
 .top-nav li a:hover, .top-nav li.active-item a, .top-nav .logo.active-item a:hover {
-	background: none repeat scroll 0 0 #0d144a;
+	background: none repeat scroll 0 0 #e32f33;
     color: #fff;
 }
 .top-nav li.logo a, .top-nav li.logo.active-item a, .top-nav .logo {

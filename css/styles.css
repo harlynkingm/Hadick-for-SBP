@@ -50,14 +50,6 @@ body{
     border: 2px solid #0d144a;
 }
 
-.candidate-header:hover{
-    border: 2px solid #0d144a;
-    background-color: #fff;
-    color: #0d144a;
-    cursor: pointer;
-    transition: .2s;
-}
-
 .info-bullets{
     font-size: 16px;
     margin-top: 7px;
@@ -65,7 +57,6 @@ body{
     text-align: left;
     margin-left: 15px;
     line-height: 22px;
-    display: none;
 }
 
 .issue-header{
@@ -141,6 +132,34 @@ body{
                                   not supported by any browser */
 }
 
+#clockdiv{
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #e32f33;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	display: inline-block;
+    color: #0d144a;
+    background: #fff;
+}
+
+.smalltext{
+	padding-top: 7px;
+	font-size: 16px;
+}
+
 @media screen and (max-width: 1100px){
     .owl-carousel{
         height: 100%;
@@ -169,6 +188,7 @@ body{
     .platform-desc{
         font-size: 12px;
     }
+
 }
 
 @media screen and (max-width:680px) {
@@ -220,5 +240,17 @@ body{
     
     .platform-desc{
         font-size: 14px;
+    }
+    
+    #clockdiv{
+        font-size: 20px;
+    }
+    
+    .smalltext{
+        font-size: 10px;
+    }
+    
+    #clockdiv div > span{
+	   padding: 8px;
     }
 }

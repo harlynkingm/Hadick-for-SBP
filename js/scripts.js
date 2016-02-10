@@ -48,6 +48,11 @@ jQuery(document).ready(function($) {
         }, 450);
     });
     
+    $(".student-text").click(function(){
+        $(this).prev().children().first().next().fadeToggle(200);
+        $(this).prev().children().first().next().next().fadeToggle(200);
+    });
+    
     $("#scroll-about").click(function(){
         $('body').scrollTo('#aboutUs');
     });

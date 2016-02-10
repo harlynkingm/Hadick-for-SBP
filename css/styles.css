@@ -20,6 +20,15 @@ body{
     margin-top: 2.8em;
 }
 
+.highlight-red{
+    color: #e32f33;
+    transition: .1s;
+}
+
+.highlight-red:hover{
+    color: #fff;
+}
+
 .image-overlay-text{
     margin-top: -190px;
     font-size: 3em;
@@ -287,5 +296,9 @@ body{
     
     #clockdiv div > span{
 	   padding: 8px;
+    }
+    
+    .highlight-red{
+        font-size: 1.7em;
     }
 }

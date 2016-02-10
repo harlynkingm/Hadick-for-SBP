@@ -53,6 +53,11 @@ jQuery(document).ready(function($) {
         $(this).prev().children().first().next().next().fadeToggle(200);
     });
     
+    $(".student-image").click(function(){
+        $(this).children().first().next().fadeToggle(200);
+        $(this).children().first().next().next().fadeToggle(200);
+    });
+    
     $("#scroll-about").click(function(){
         $('body').scrollTo('#aboutUs');
     });

@@ -92,6 +92,7 @@ body{
     height: 220px;
     overflow: hidden;
     position: relative;
+    cursor: pointer;
 }
 
 .bio-text{

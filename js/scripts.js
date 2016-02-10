@@ -22,7 +22,7 @@ jQuery(document).ready(function($) {
         slideSpeed: 200,
         autoPlay: true,
         navigation: false,
-        pagination: true,
+        pagination: false,
         singleItem: true
     });
     

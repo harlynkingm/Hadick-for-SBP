@@ -198,6 +198,7 @@ body{
 	display: inline-block;
     color: #0d144a;
     background: #fff;
+    width: 70px;
 }
 
 .smalltext{
@@ -297,6 +298,7 @@ body{
     
     #clockdiv div > span{
 	   padding: 8px;
+       width: 50px;
     }
     
     .highlight-red{

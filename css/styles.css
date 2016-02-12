@@ -145,6 +145,7 @@ body{
 
 .student-image img{
     display:inline;
+    min-width: 100%;
 }
 
 .timeline-text{

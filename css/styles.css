@@ -21,12 +21,12 @@ body{
 }
 
 .highlight-red{
-    color: #e32f33;
+    color: #fff;
     transition: .1s;
 }
 
 .highlight-red:hover{
-    color: #fff;
+    color: #e32f33;
 }
 
 .image-overlay-text{

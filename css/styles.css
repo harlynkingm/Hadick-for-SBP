@@ -23,6 +23,7 @@ body{
 .highlight-red{
     color: #fff;
     transition: .1s;
+    padding-top:9px;
 }
 
 .highlight-red:hover{
@@ -303,5 +304,6 @@ body{
     
     .highlight-red{
         font-size: 1.4em;
+        padding: 5px;
     }
 }

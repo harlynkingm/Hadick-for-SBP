@@ -7,6 +7,20 @@
   color: #fff;
 }
 
+.strikeout {
+  line-height: 1em;
+  position: relative;
+}
+.strikeout::after {
+  border-bottom: 0.2em solid red;
+  content: "";
+  left: 0;
+  margin-top: calc(0.125em / 2 * -1);
+  position: absolute;
+  right: 0;
+  top: 35%;
+}
+
 body{
     overflow-x: hidden;
 }
